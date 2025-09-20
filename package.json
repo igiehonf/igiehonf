@@ -32,5 +32,11 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.3.0",
     "vite": "^5.4.2"
-  }
+  },
+  "scripts": {
+  "dev": "next dev",
+  "build": "tinacms build && next build",
+  "start": "next start"
+}
+
 }
